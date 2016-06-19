@@ -7,7 +7,7 @@
 - The review type discussion started with some exercises and if we encounter unfamiliar terms our professor discusses them first and then proceeds with the exercises again.
 - Recalling all logical operations:<br/>
 |               Operator               | Symbol |           Expression          |
-|:------------------------------------:|:------:|:-----------------------------:|
+| :----------------------------------: | :----: | :---------------------------: |
 |            Negation (NOT)            |    ¬   |               ¬p              |
 |           Conjunction (AND)          |    ∧   |             p ∧ q             |
 |           Disjunction (OR)           |    ∨   |             p ∨ q             |
