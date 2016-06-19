@@ -6,7 +6,7 @@
 - On our next meeting, we had officially started our class. We had a review type of discussion since we had already taken the course LOGICIR.
 - The review type discussion started with some exercises and if we encounter unfamiliar terms our professor discusses them first and then proceeds with the exercises again.
 - Recalling all logical operations:<br/>
-		Operator                 Symbol             Expression          
+                Operator                 Symbol             Expression          
   ------------------------------------   ------   ------------------------------- 
              Negation (NOT)                 ¬                   ¬p              
             Conjunction (AND)               ∧                 p ∧ q             
@@ -14,14 +14,14 @@
        Exclusive Disjunction (XOR)          ⊕     p ⊕ q ≡ (¬p ∧ q)  ∨  (p ∧ ¬q) |
        Conditional (IF-THEN, etc.)          →             p → q ≡ ¬p ∨ q        
   Biconditional (IF AND ONLY IF, etc.)      ↔       p ↔ q ≡ (p → q) ∧ (q → p) |  
-- Additionally, we also learned about Inverse, Converse, and Contrapositive. Expressing these three in logical expression form, assuming p → q:
+- Additionally, we also learned about Inverse, Converse, and Contrapositive. Expressing these three in logical expression form, assuming p → q:<br/>
 Conditinal Operator |  Expression 
 --------------------|------------
 Inverse | ¬p → ¬q 
 Converse | q → p 
 Contrapositive | ¬q → ¬p
 
-- I was also able to answer some quesions during class including:
+- I was also able to answer some quesions during class including:<br/>
 Number-Letter of Question |  Question | Answer
 --------------------------|-----------|-------
 8-b | p: I bought a lottery ticket this week.<br/> q: I won the million dollar jackpot.<br/> Express p v q as an English sentence. | I bought a lottery ticket this week or I won the million dollar jackpot.
