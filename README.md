@@ -6,7 +6,7 @@
 - On our next meeting, we had officially started our class. We had a review type of discussion since we had already taken the course LOGICIR.
 - The review type discussion started with some exercises and if we encounter unfamiliar terms our professor discusses them first and then proceeds with the exercises again.
 - Recalling all logical operations:<br/>
-                Operator                 Symbol             Expression          
+								Operator                 Symbol             Expression          
   ------------------------------------   ------   ------------------------------- 
              Negation (NOT)                 ¬                   ¬p              
             Conjunction (AND)               ∧                 p ∧ q             
