@@ -6,8 +6,8 @@
 - On our next meeting, we had officially started our class. We had a review type of discussion since we had already taken the course LOGICIR.
 - The review type discussion started with some exercises and if we encounter unfamiliar terms our professor discusses them first and then proceeds with the exercises again.
 - Recalling all logical operations:
- Operator | Symbol | Expression 
-:---:|:---:|:---:
+Operator | Symbol | Expression 
+---------|--------|-----------
 Negation  (NOT) | ¬ | ¬p
 Conjunction (AND) | ∧ | p ∧ q 
 Disjunction (OR) | v | p v q 
@@ -16,14 +16,14 @@ Conditional (IF-THEN, etc.) | → | p → q ≡ ¬p v q
 Biconditional (IF AND ONLY IF, etc.) | ↔ | p ↔ q ≡ (p → q) ∧ (q → p)
 - Additionally, we also learned about Inverse, Converse, and Contrapositive. Expressing these three in logical expression form, assuming p → q:
 Conditinal Operator |  Expression 
-:---:|:---:
+--------------------|------------
 Inverse | ¬p → ¬q 
 Converse | q → p 
 Contrapositive | ¬q → ¬p
 
 - I was also able to answer some quesions during class including:
 Number-Letter of Question |  Question | Answer
-:-------------------------:|:---------:|:------:
+--------------------------|-----------|-------
 8-b | p: I bought a lottery ticket this week.<br/> q: I won the million dollar jackpot.<br/> Express p v q as an English sentence. | I bought a lottery ticket this week or I won the million dollar jackpot.
 11-a | p: It is below freezing.<br/> q: It is snowing.<br/> Write "It is below freezing and snowing" using p and q and logical connectives (including negations). | p ∧ q 
 13-g | p: You drive over 65 miles per hour.<br/> q: You get a speeding ticket.<br/> Write "Whenever you get a speeding ticket, you are driving over 65 miles per hour." using p and q and logical connectives (including negations). | q → p 
