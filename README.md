@@ -13,7 +13,7 @@
             Disjunction (OR)                ∨                 p ∨ q             
        Exclusive Disjunction (XOR)          ⊕     p ⊕ q ≡ (¬p ∧ q)  ∨  (p ∧ ¬q) |
        Conditional (IF-THEN, etc.)          →             p → q ≡ ¬p ∨ q        
-  Biconditional (IF AND ONLY IF, etc.)      ↔       p ↔ q ≡ (p → q) ∧ (q → p)   
+  Biconditional (IF AND ONLY IF, etc.)      ↔       p ↔ q ≡ (p → q) ∧ (q → p) |  
 - Additionally, we also learned about Inverse, Converse, and Contrapositive. Expressing these three in logical expression form, assuming p → q:
 Conditinal Operator |  Expression 
 --------------------|------------
