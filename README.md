@@ -6,14 +6,14 @@
 - On our next meeting, we had officially started our class. We had a review type of discussion since we had already taken the course LOGICIR.
 - The review type discussion started with some exercises and if we encounter unfamiliar terms our professor discusses them first and then proceeds with the exercises again.
 - Recalling all logical operations:
-| Operator                           | Symbol | Expression              | 
-|:----------------------------------:|:------:|:-----------------------:|
-|Negation  (NOT)                     | ¬ | ¬p                           |
-|Conjunction (AND)                   | ∧ | p ∧ q                        |
-|Disjunction (OR)                    | v | p v q                        |
-|Exclusive Disjunction (XOR)         | ⊕ | p ⊕ q ≡ (¬p ∧ q) v (p ∧ ¬q)|
-|Conditional (IF-THEN, etc.)         | → | p → q ≡ ¬p v q               |
-|Biconditional (IF AND ONLY IF, etc.)| ↔ | p ↔ q ≡ (p → q) ∧ (q → p)    |
+|               Operator               | Symbol |           Expression          |
+|:------------------------------------:|:------:|:-----------------------------:|
+|            Negation (NOT)            |    ¬   |               ¬p              |
+|           Conjunction (AND)          |    ∧   |             p ∧ q             |
+|           Disjunction (OR)           |    ∨   |             p ∨ q             |
+|      Exclusive Disjunction (XOR)     |    ⊕   | p ⊕ q ≡ (¬p ∧ q)  ∨  (p ∧ ¬q) |
+|      Conditional (IF-THEN, etc.)     |    →   |         p → q ≡ ¬p ∨ q        |
+| Biconditional (IF AND ONLY IF, etc.) |    ↔   |   p ↔ q ≡ (p → q) ∧ (q → p)   |
 - Additionally, we also learned about Inverse, Converse, and Contrapositive. Expressing these three in logical expression form, assuming p → q:
 Conditinal Operator |  Expression 
 --------------------|------------
