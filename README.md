@@ -37,6 +37,7 @@ Contrapositive | ¬q → ¬p
 27-c | State the converse, contrapositive, and inverse of "A positive integer is a prime only if it has no divisors other than 1 and itslef." | **Converse**: A positive integer is a prime if it has no divisors other than 1 and itself.<br/> **Contrapositive**: If a positive integer does not have no divisors other than 1 and itself, then it is not prime.<br/> **Inverse**: If a positive integer is not prime, then it has a divisor other than 1 and itself. 
 29-d | How many rows appear in a truth table for "(p ∧ r ∧ t) ↔ (q ∧ t)" | 2^4 = 16 
 
+
 #### Assignment:
 - 31.b. Construct a truth table for p ∨ ¬p
   
