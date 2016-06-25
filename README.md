@@ -76,3 +76,30 @@ Contrapositive | ¬q → ¬p
     F | T | F | T | F | F | F
     F | F | T | F | T | F | T
     
+<br/>
+# WEEK 2
+- During our second week, we had a brief discussion on Propositional Equivalences.
+- We differentiated Tautology, Contradiction, and Contingency.
+  * **Tautology** - a compound proposition that's **_always true_** regardless of what the truth values of the propositions are.
+  * **Contradiction** - a compound proposition that's **_always false_** regardless of what the truth values of the propositions are.
+  * **Contingency** - it's **_neither a tautology nor a contradiction_**.
+- Regarding contradiction, the logical operation **AND** is a natural partner for contradiction.
+- Following the brief introduction, we proceeded to our main topic which was Logical Equivalences. Compound propositions that have the same truth value in all possible cases are **logically equivalent**.
+- When proving logical statements using truth table seem too much of a hassle to do, an alternative to it is to use logical equivalences.
+- Below is a table of Logical Equivalences:
+
+  | Equivalence | Name |
+  | :---------: | :--: |
+  | p ∧ **T** ≡ p<br/> p ∨ **F** ≡ p | Identity Laws |
+  | p ∨ **T** ≡ **T**<br/> p ∧ **F** ≡ **F** | Domination Laws |
+  | p ∨ p ≡ p<br/> p ∧ p ≡ p | Idempotent Laws |
+  | ¬(¬p) ≡ p | Double Negation Law |
+  | p ∨ q ≡ q ∨ p<br/> p ∧ q ≡ q ∧ p | Commutative Laws |
+  | (p ∨ q) ∨ r ≡ p ∨ (q ∨ r)<br/> (p ∧ q) ∧ r ≡ p ∧ (q ∧ r)| Associative Laws |
+  | p ∨ (q ∧ r) ≡ (p ∨ q) ∧ (p ∨ r)<br/> p ∧ (q ∨ r) ≡ (p ∧ q) ∨ (p ∧ r)| Distributive Laws |
+  | ¬(p ∧ q) ≡ ¬p ∨ ¬q<br/> ¬(p ∨ q) ≡ ¬p ∧ ¬q | De Morgan's Law |
+  | p ∨ (p ∧ q) ≡ p<br/> p ∧ (p ∨ q) ≡ p | Absorption Laws |
+  | p ∨ ¬p ≡ **T**<br/> p ∧ ¬p ≡ **F** | Negation Laws |
+
+- Me and my other classmate were able to answer what is the logical equivalent of p → q using AND, OR, or NOT and we answered ¬p ∨ q because it has the same truth table as the given.
+- Afterwhich, we moved on to the next discussion which was about Quantifiers. Quantifiers are ...tbc
