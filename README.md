@@ -1,6 +1,6 @@
 # WEEK 1
 - On our first meeting, our professor discussed a brief introduction on what Discrete Mathematics was about and how our learning in Algebra can help in analyzing Discrete Mathematics problems.
-- Following the brief introduction, we had a recap on what Propositions are. And I learned that **Propositions are declarative statements that can be answered by either true or false.
+- Following the brief introduction, we had a recap on what Propositions are. And I learned that Propositions are declarative statements that can be answered by either true or false.
 - We were also asked one question each about propositions. I was asked if **2+3=5** was a proposition, and my answer was **yes** because it's true that 2 plus 3 is equal to 5.
 
 - On our next meeting, we had officially started our class. We had a review type of discussion since we had already taken the course LOGICIR.
