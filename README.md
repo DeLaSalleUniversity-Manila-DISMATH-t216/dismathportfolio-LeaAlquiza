@@ -160,6 +160,7 @@ Number-Letter of Question |  Question | Answer
 - I was also asked to give an example of Modus Ponens and answered: Punu is cute, and if Punu is cute then Punu is cuddly; therefore Punu is cuddly.
 
 **Table 1 for answered question:**
+
  p | ¬p | q | ¬q | p → q | ¬q ∧ (p → q) | (¬q ∧ (p → q)) → ¬p
  :---:|:---:|:---:|:---:|:---:|:---:|:---:
   T | F | F | T | F | F | **T**
@@ -168,6 +169,7 @@ Number-Letter of Question |  Question | Answer
   F | T | F | T | T | T | **T**
 
 **Table 2 for answered question:**
+
  p | q | ¬q | p ↔ q | ¬(p ↔ q) | p ↔ ¬q |
  :---:|:---:|:---:|:---:|:---:|:---:
   T | T | F | T | **F** | **F** 
@@ -187,7 +189,21 @@ Number-Letter of Question |  Question | Answer
   * **¬∃x∀yL(x, y)**
 
 - (1.6)35. Determine whether this argument, taken from Kalish and Montague [KaMo64], is valid.
-If Superman were able and willing to prevent evil, he would do so. If Superman were unable to prevent evil, he would be impotent; if he were unwilling to prevent evil, he would be malevolent. Superman does not prevent evil. If Superman exists, he is neither impotent nor malevolent. Therefore, Superman does not exist.
-
-    
-<br/>
+<br/>If Superman were able and willing to prevent evil, he would do so. If Superman were unable to prevent evil, he would be impotent; if he were unwilling to prevent evil, he would be malevolent. Superman does not prevent evil. If Superman exists, he is neither impotent nor malevolent. Therefore, Superman does not exist.
+  * Let A be “Superman is able to prevent evil”, W be “Superman is willing to prevent evil”, P be “Superman prevents evil”, I be “Superman is impotent”, M be “Superman is malevolent”, and E be “Superman exists”.
+  <br/>
+  Premises are:
+  * 1. (A ∧ W) → P
+  * 2. ¬A → I
+  * 3. ¬W → M
+  * 4. ¬P
+  * 5. E → (¬I ∧ ¬M)
+  <br/>
+  Solution:
+  * 6. Modus Tollens on #1 and #4: ¬(A ∧ W)
+  * 7. De Morgan's law on #6: ¬A ∨ ¬W
+  * 8. Modus Ponens on #2 and #3: I ∨ M
+  * 9. De Mordan's law on #8: ¬(¬I ∧ ¬M)
+  * 10. Modus Tollens on #9: ¬E
+  <br/>
+  * Therefore, the argument is **VALID**.
