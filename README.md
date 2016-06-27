@@ -134,3 +134,60 @@ Contrapositive | ¬q → ¬p
  | p ∧ q<br/>∴ p  |  (p ∧ q) → p  | Simplification  |
  |  p<br/>q<br/>∴ p ∧ q |  ((p) ∧ (q)) → (p ∧ q)  |  Conjunction  |
  | p ∨ q<br/>¬p ∨ r<br/>∴ q ∨ r  |  ((p ∨ q) ∧ (¬p ∨ r)) → q ∨ r | Resolution  |
+
+- I was also able to answer some quesions during class including:
+
+  Number-Letter of Question |  Question | Answer
+:------------------------:|---------|:-----:
+7-b | Use De Morgan's laws to find the negation of "Carlos will bicycle or run tomorrow". | Carlos will not bicycle tomorrow and will not run tomorrow.
+15 | Determine whether (¬q ∧ (p → q)) → ¬p is a tautology. | *Answer in Table 1 below*
+17 | Show that ¬(p ↔ q) and p ↔ ¬q are logically equivalent. | *Answer in Table 2 below*
+
+  Number-Letter of Question |  Question | Answer
+:------------------------:|---------|:-----:
+3-c | Let Q(x,y) denote the statement "x is the capital of y." Is Q(Massachusetts, Boston) true?. | False
+3-d | Let Q(x,y) denote the statement "x is the capital of y." Is Q(New York, New York) true?. | False
+7-b | Translate ∀x(C(x) ∧ F(x)) into English, where C(x) is "x is a comedian" and F(x) is "x is funny" and the domain consists of all people. | Every person is a funny comedian.
+11-a | Let P(x) be the statement "x = x^2." If the domain consists of integers, is P(0) true? | True 
+13-b | Determine the truth value of ∃n(2n = 3n) if the domain consists of all integers. | True 
+17-a | Suppose that the domain of the propositional function P(x) consists of the integers 0, 1, 2, 3, and 4. Write out ∃xP(x) using disjunctions, conjunctions, and negations. | Disjunction
+
+Number-Letter of Question |  Question | Answer
+:------------------------:|---------|:-----:
+1-a | Translate ∀x∃y(x < y) into English, where the domain for each variable consists of all real numbers. | For all x there exists a y such that x is less than y.
+3-e | Let Q(x, y) be the statement “x has sent an e-mail message to y,” where the domain for both x and y consists of all students in your class. Express ∀y∃xQ(x, y) in English. | All students in your class has been sent an e-mail message from some students in your class.
+
+- I was also asked to give an example of Modus Ponens and answered: Punu is cute, and if Punu is cute then Punu is cuddly; therefore Punu is cuddly.
+
+**Table 1 for answered question:**
+ p | ¬p | q | ¬q | p → q | ¬q ∧ (p → q) | (¬q ∧ (p → q)) → ¬p
+ :---:|:---:|:---:|:---:|:---:|:---:|:---:
+  T | F | F | T | F | F | **T**
+  F | T | T | F | T | F | **T**
+  T | F | T | F | T | F | **T**
+  F | T | F | T | T | T | **T**
+
+**Table 2 for answered question:**
+ p | q | ¬q | p ↔ q | ¬(p ↔ q) | p ↔ ¬q |
+ :---:|:---:|:---:|:---:|:---:|:---:
+  T | T | F | T | **F** | **F** 
+  F | F | T | T | **F** | **F** 
+  T | F | T | F | **T** | **T** 
+  F | T | F | F | **T** | **T** 
+
+<br/>
+#### Assignment:
+- 5.b. Let W(x, y) mean that student x has visited website y, where the domain for x consists of all students in your school and the domain for y consists of all websites. Express ∃xW(x, www.imdb.org) by a simple English sentence.
+  * **There exist a student in your school who has visited www.imdb.org.**
+
+- 7.c. Let T (x, y) mean that student x likes cuisine y, where the domain for x consists of all students at your school and the domain for y consists of all cuisines. Express ∃y(T (Monique Arsenault, y) ∨ T (Jay Johnson, y)) by a simple English sentence.
+  * **There exist a cuisine that either Monique Arsenault or Jay Johnson likes.**
+
+- 9.d. Let L(x, y) be the statement “x loves y,” where the domain for both x and y consists of all people in the world. Use quantifiers to express "Nobody loves everybody".
+  * **¬∃x∀yL(x, y)**
+
+- (1.6)35. Determine whether this argument, taken from Kalish and Montague [KaMo64], is valid.
+If Superman were able and willing to prevent evil, he would do so. If Superman were unable to prevent evil, he would be impotent; if he were unwilling to prevent evil, he would be malevolent. Superman does not prevent evil. If Superman exists, he is neither impotent nor malevolent. Therefore, Superman does not exist.
+
+    
+<br/>
