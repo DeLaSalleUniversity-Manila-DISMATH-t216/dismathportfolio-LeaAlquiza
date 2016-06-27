@@ -100,6 +100,16 @@ Contrapositive | ¬q → ¬p
   | ¬(p ∧ q) ≡ ¬p ∨ ¬q<br/> ¬(p ∨ q) ≡ ¬p ∧ ¬q | De Morgan's Law |
   | p ∨ (p ∧ q) ≡ p<br/> p ∧ (p ∨ q) ≡ p | Absorption Laws |
   | p ∨ ¬p ≡ **T**<br/> p ∧ ¬p ≡ **F** | Negation Laws |
-
+  | p → q ≡ ¬p ∨ q | Implication Equivalence |
+  
 - Me and my other classmate were able to answer what is the logical equivalent of p → q using AND, OR, or NOT and we answered ¬p ∨ q because it has the same truth table as the given.
-- Afterwhich, we moved on to the next discussion which was about Quantifiers. Quantifiers are ...tbc
+- Afterwhich, we moved on to the next discussion which was about Quantifiers. There are two types of Quantifiers:
+
+  | Quantifier | Symbol | Statement | Definition | Negation |
+  | :---: | :--: | :---: | :---: | :---: |
+  | Universal | ∀ | ∀xP(x) | P(x) for all values of x in the domain | ¬(∀xP(x)) ≡ ∃x¬P(x) |
+  | Existential | ∃ | ∃xP(x) | There exist an element x in the domain such that P(x) | ¬(∃xP(x)) ≡ ∀x¬P(x) |
+
+- In the Universal quantifier, **_∀xP(x) is true_** if *P(x) is true for all values of x*, and **_false_** if *there exist a value of x which will make P(x) false*.
+- In the Existential quantifier, **_∃xP(x) is true_** if *there exist a value of x which will make P(x) true*, and **_false_** if *P(x) is false for all values of x*.
+- ...tbc
