@@ -112,4 +112,25 @@ Contrapositive | ¬q → ¬p
 
 - In the Universal quantifier, **_∀xP(x) is true_** if *P(x) is true for all values of x*, and **_false_** if *there exist a value of x which will make P(x) false*.
 - In the Existential quantifier, **_∃xP(x) is true_** if *there exist a value of x which will make P(x) true*, and **_false_** if *P(x) is false for all values of x*.
-- ...tbc
+- We also took a glimpse of Nested Quantifiers. Below is a comparison table for each of the combinations (universal and existential):
+
+  | Statement | TRUE when | FALSE when |
+  | :---: | :---: | :---: |
+  | ∀x∀yP(x,y) | P(x,y) is true for every pair x, y | There is a pair x, y for which P(x, y) is false |
+  | ∀y∀xP(x,y) | P(x,y) is true for every pair x, y | There is a pair x, y for which P(x, y) is false |
+  | ∀x∃yP(x,y) | For every x there is a y for which P(x,y) is true | There is an x such that P(x,y) is false for every y |
+  | ∃x∀yP(x,y) | There is an x for which P(x,y) is true for every y | For every x there is a y for which P(x,y) is false |
+  | ∃x∃yP(x,y) | There is pair x, y for which P(x,y) is true | P(x,y) is false for every pair x, y |
+
+- Afterwhich, we moved on to Rules of Inference, which is like the Logical Equivalence Laws. Rules of Inference are used to prove an argument. Below is a table of Rules of Inference:
+
+ | Rule of Inference | Tautology  |  Name  |
+ | :-------: | :--------------: | :---------: |
+ | p<br/>p→q<br/>∴q |  (p ∧ (p → q)) → q  | Modus Ponens  |
+ | ¬q<br/>p → q<br/>∴ ¬p  |  (¬q ∧ (p → q)) → ¬p |  Modus Tollens  |
+ | p → q<br/>q → r<br/>∴ p → r  | ((p → q) ∧ (q → r)) → (p → r) |  Hypothetical Syllogism  |
+ | p ∨ q<br/>¬p<br/>∴ q  | ((p ∨ q) ∧ ¬p) → q   |  Disjunctive Syllogism |
+ | p<br/>∴ p ∨ q  |  p → p ∨ q  |  Addition  |
+ | p ∧ q<br/>∴ p  |  (p ∧ q) → p  | Simplification  |
+ |  p<br/>q<br/>∴ p ∧ q |  ((p) ∧ (q)) → (p ∧ q)  |  Conjunction  |
+ | p ∨ q<br/>¬p ∨ r<br/>∴ q ∨ r  |  ((p ∨ q) ∧ (¬p ∨ r)) → q ∨ r | Resolution  |
