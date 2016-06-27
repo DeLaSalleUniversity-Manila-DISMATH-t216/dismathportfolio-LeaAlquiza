@@ -192,18 +192,21 @@ Number-Letter of Question |  Question | Answer
 <br/>If Superman were able and willing to prevent evil, he would do so. If Superman were unable to prevent evil, he would be impotent; if he were unwilling to prevent evil, he would be malevolent. Superman does not prevent evil. If Superman exists, he is neither impotent nor malevolent. Therefore, Superman does not exist.
   * Let A be “Superman is able to prevent evil”, W be “Superman is willing to prevent evil”, P be “Superman prevents evil”, I be “Superman is impotent”, M be “Superman is malevolent”, and E be “Superman exists”.
   <br/>
-  Premises are:
+  <br/>
+**Premises are**:
   * 1. (A ∧ W) → P
   * 2. ¬A → I
   * 3. ¬W → M
   * 4. ¬P
   * 5. E → (¬I ∧ ¬M)
   <br/>
-  Solution:
+  <br/>
+**Solution**:
   * 6. Modus Tollens on #1 and #4: ¬(A ∧ W)
   * 7. De Morgan's law on #6: ¬A ∨ ¬W
   * 8. Modus Ponens on #2 and #3: I ∨ M
   * 9. De Mordan's law on #8: ¬(¬I ∧ ¬M)
   * 10. Modus Tollens on #9: ¬E
   <br/>
-  * Therefore, the argument is **VALID**.
+  <br/>
+Therefore, the argument is **VALID**.
