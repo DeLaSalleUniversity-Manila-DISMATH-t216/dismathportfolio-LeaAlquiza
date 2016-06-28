@@ -158,19 +158,19 @@ Contrapositive | ¬q → ¬p
 3-e | Let Q(x, y) be the statement “x has sent an e-mail message to y,” where the domain for both x and y consists of all students in your class. Express ∀y∃xQ(x, y) in English. | All students in your class has been sent an e-mail message from some students in your class.
 
   * I was also asked to give an example of Modus Ponens and answered: Punu is cute, and if Punu is cute then Punu is cuddly; therefore Punu is cuddly.
+<br/>
+  **Table 1 for answered question:**
 
-**Table 1 for answered question:**
-
- p | ¬p | q | ¬q | p → q | ¬q ∧ (p → q) | (¬q ∧ (p → q)) → ¬p
+   p | ¬p | q | ¬q | p → q | ¬q ∧ (p → q) | (¬q ∧ (p → q)) → ¬p
  :---:|:---:|:---:|:---:|:---:|:---:|:---:
   T | F | F | T | F | F | **T**
   F | T | T | F | T | F | **T**
   T | F | T | F | T | F | **T**
   F | T | F | T | T | T | **T**
+<br/>
+  **Table 2 for answered question:**
 
-**Table 2 for answered question:**
-
- p | q | ¬q | p ↔ q | ¬(p ↔ q) | p ↔ ¬q |
+   p | q | ¬q | p ↔ q | ¬(p ↔ q) | p ↔ ¬q |
  :---:|:---:|:---:|:---:|:---:|:---:
   T | T | F | T | **F** | **F** 
   F | F | T | T | **F** | **F** 
