@@ -204,9 +204,10 @@ Number-Letter of Question |  Question | Answer
 **Solution**:
   * 6. Modus Tollens on #1 and #4: ¬(A ∧ W)
   * 7. De Morgan's law on #6: ¬A ∨ ¬W
-  * 8. Modus Ponens on #2 and #3: I ∨ M
-  * 9. De Mordan's law on #8: ¬(¬I ∧ ¬M)
-  * 10. Modus Tollens on #9: ¬E
+  * 8. Resolution on #2 and 7: I ∨ ¬W
+  * 9. Resolution on #3 and 8: M ∨ I
+  * 10. De Mordan's law on #9: ¬M ∧ ¬I
+  * 11. Modus Tollens on #5 and #10: ¬E
   <br/>
   <br/>
 Therefore, the argument is **VALID**.
