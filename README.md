@@ -152,12 +152,12 @@ Contrapositive | ¬q → ¬p
 13-b | Determine the truth value of ∃n(2n = 3n) if the domain consists of all integers. | True 
 17-a | Suppose that the domain of the propositional function P(x) consists of the integers 0, 1, 2, 3, and 4. Write out ∃xP(x) using disjunctions, conjunctions, and negations. | Disjunction
 
-Number-Letter of Question |  Question | Answer
+  Number-Letter of Question |  Question | Answer
 :------------------------:|---------|:-----:
 1-a | Translate ∀x∃y(x < y) into English, where the domain for each variable consists of all real numbers. | For all x there exists a y such that x is less than y.
 3-e | Let Q(x, y) be the statement “x has sent an e-mail message to y,” where the domain for both x and y consists of all students in your class. Express ∀y∃xQ(x, y) in English. | All students in your class has been sent an e-mail message from some students in your class.
 
-- I was also asked to give an example of Modus Ponens and answered: Punu is cute, and if Punu is cute then Punu is cuddly; therefore Punu is cuddly.
+  * I was also asked to give an example of Modus Ponens and answered: Punu is cute, and if Punu is cute then Punu is cuddly; therefore Punu is cuddly.
 
 **Table 1 for answered question:**
 
