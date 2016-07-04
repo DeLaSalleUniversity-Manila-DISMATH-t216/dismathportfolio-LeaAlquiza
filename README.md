@@ -159,7 +159,8 @@ Contrapositive | ¬q → ¬p
 
   * I was also asked to give an example of Modus Ponens and answered: Punu is cute, and if Punu is cute then Punu is cuddly; therefore Punu is cuddly.
 <br/>
-  **Table 1 for answered question:**
+<br/>
+**Table 1 for answered question:**
 
    p | ¬p | q | ¬q | p → q | ¬q ∧ (p → q) | (¬q ∧ (p → q)) → ¬p
  :---:|:---:|:---:|:---:|:---:|:---:|:---:
@@ -219,4 +220,4 @@ Therefore, the argument is **VALID**.
 - We proceeded to a really brief discussion on Fallacies. **_Fallacies resemble rules of inference, but are based on contingencies rather than tautologies. In short, it is a common form of incorrect reasoning which leads to  invalid arguments._**
 - We also learned about the concept of instantation. Instantation is a method of getting a specific sample in the given domain. There are 2 types of instantation: Universal Instantation and Existential Instantation. These two only differ in the "Universal" or "Existential" part.
 <br/>
-- On our second meeting of the week, we only answered our given items in...tbc
+- On our second meeting of the week, we only answered our given items from the assignment (Chapter 1.7).
