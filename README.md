@@ -221,3 +221,28 @@ Therefore, the argument is **VALID**.
 - We also learned about the concept of instantation. Instantation is a method of getting a specific sample in the given domain. There are 2 types of instantation: Universal Instantation and Existential Instantation. These two only differ in the "Universal" or "Existential" part.
 <br/>
 - On our second meeting of the week, we only answered our given items from the assignment (Chapter 1.7).
+- I was also able to answer some quesions during class including:
+
+  Number-Letter of Question |  Question | Answer
+:------------------------:|---------|:-----:
+(1.6) Example 7 | After establishing the premise r → s, what must be the next step (what rule/law must be applied) to come up with the conclusion ¬q → s? | Hypothetical Syllogism on the argument obtained in step 4 (¬q → r) and the premise established in step 5 (r → s): **¬q → s**
+(1.6) 1 | Find the argument form for the following argument and determine whether it is valid. Can we conclude that the conclusion is true if the premises are true? <br/> If Socrates is human, then Socrates is mortal. <br/> Socrates is human. <br/> ∴ Socrates is mortal. | Modus Ponens - Valid
+
+<br/>
+#### Assignment:
+- (1.7) 3. Show that the square of an even number is an even number using a direct proof.
+  * If n is even, then n^2 is even.
+  * **p** = n is even || **q** = n^2 is even
+  * If p is *true*: n = 2k
+  * n^2 = (2k)^2 = 4k^2 = 2(2k^2)
+  * Let m = 2k^2
+  * Therefore, **2m**
+
+- (1.7) 17. Show that if n is an integer and n^3 + 5 is odd, then n is even using (a) a proof by contraposition.
+  * p → q = ¬q → ¬p
+  * If n is an integer and n^3 + 5 is odd, then n is even.
+  * **¬q** = n is odd || **¬p** = n^3 + 5 is even
+  * Odd integers: n = 2k + 1
+  * Substituting n in n^3 + 5: (2k+1)^3 + 5 = 8k^3 + 12k^2 + 6k + 6 = 2(4k^3 + 6k^2 + 3k + 3)
+  * Let m = 4k^3 + 6k^2 + 3k + 3
+  * Therefore, **2m** (Even)
