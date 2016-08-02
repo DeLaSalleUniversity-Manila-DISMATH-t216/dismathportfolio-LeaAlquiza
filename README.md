@@ -259,8 +259,8 @@ Therefore, the argument is **VALID**.
 :------------------------:|---------|:-----:
 (1.7) 33 | Show that these statements about the real number x are equivalent: (i) x is irrational, (ii) 3x + 2 is irrational, (iii) x/2 is irrational. | Use Proof by Contraposition on (i) → (ii), (ii) → (i), (i) → (iii), and then on (iii) → (i). These will result to: (i) → (ii) will show that x is rational, (ii) → (i) will show that 3x + 2 is rational, (i) → (iii) will show that x is rational, and lastly, (iii) → (i) will show that x/2 is rational.
 (1.8) 1 | Prove that n^2 + 1 ≥ 2^n when n is a positive integer with 1 ≤ n ≤ 4 | Using Proof by Cases: <br> @n=1: 1^2 + 1 = 2 ≥ 2 = 2^1 <br> @n=2: 2^2 + 1 = 5 ≥ 4 = 2^2 <br> @n=3: 3^2 + 1 = 10 ≥ 8 = 2^3 <br> @n=4: 4^2 + 1 = 17 ≥ 16 = 2^4 <br> @n=5: 5^2 + 1 = 26 ≤ 32 = 2^5 <br> Therefore, the statement is TRUE.
-(1.8) 5 | Prove using the notion of without loss of generality that min(x, y) = (x + y − |x − y|)/2 and max(x, y) =
-(x + y + |x − y|)/2 whenever x and y are real numbers. | Since |x - y| = |y - x|, x and y are interchangeable. Applying "without loss of generality", we assume x ≥ y: <br> [x + y - (x - y)]/2 = [x + y - x + y]/2 = 2y/2 = y = min(x,y) <br> [x + y + (x - y)]/2 = [x + y + x - y]/2 = 2x/2 = x = max(x,y).
+(1.8) 5 | Prove using the notion of without loss of generality that min(x, y) = (x + y − lx − yl)/2 and max(x, y) =
+(x + y + lx − yl)/2 whenever x and y are real numbers. | Since lx - yl = ly - xl, x and y are interchangeable. Applying "without loss of generality", we assume x ≥ y: <br> [x + y - (x - y)]/2 = [x + y - x + y]/2 = 2y/2 = y = min(x,y) <br> [x + y + (x - y)]/2 = [x + y + x - y]/2 = 2x/2 = x = max(x,y).
 
 - We then proceeded to the discussion of sets. A **set** is an unordered collection of objects called elements.
 - The statement a is an element of the set A is denoted by **a ∈ A**.
@@ -268,7 +268,18 @@ Therefore, the argument is **VALID**.
   * **N** = {0, 1, 2, 3, . . .}, the set of **natural numbers**
   * **Z** = {. . . ,−2,−1, 0, 1, 2, . . .}, the set of **integers**
   * **Z+** = {1, 2, 3, . . .}, the set of **positive integers**
-  * **Q** = {p/q | p ∈ Z, q ∈ Z, and q = 0}, the set of **rational numbers**
+  * **Q** = {p/q | p ∈ Z, q ∈ Z, and q ≠ 0}, the set of **rational numbers**
   * **R**, the set of **real numbers**
   * **R+**, the set of **positive real numbers**
   * **C**, the set of **complex numbers**
+- We also discussed the different terms used under the topic of sets.
+  * Empty or Null Set (∅) - set that has no elements
+  * Subset (⊆) - given 2 sets, A and B, set A is a subset of B if and only if every element of A is also an element of B
+  * Cardinality (| |) - number of unique elements of a set
+  * Power Set (P( )) - set of all subsets of the set
+-  I was also able to answer some quesions during class including:
+
+  Number-Letter of Question |  Question | Answer
+:------------------------:|---------|:-----:
+(2.1) 1-b | List the members of the set {x l x is a positive integer less than 12} | {1,2,3,4,5,6,7,8,9,10,11}
+(2.1) 4-a | For the pair: the set of people who speak English, the set of people who speak English with an Australian accent, determine whether the first is a subset of the second, the second is a subset of the first, or neither is a subset of the other. | 
