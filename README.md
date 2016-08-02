@@ -246,3 +246,29 @@ Therefore, the argument is **VALID**.
   * Substituting n in n^3 + 5: (2k+1)^3 + 5 = 8k^3 + 12k^2 + 6k + 6 = 2(4k^3 + 6k^2 + 3k + 3)
   * Let m = 4k^3 + 6k^2 + 3k + 3
   * Therefore, **2m** (Even)
+
+<br/>
+# WEEK 4
+- This week we continued with our topic on proving or proofs. There are 5 methods of proving: Direct Proof, Proof by Contraposition, Proof by Contradiction, Vacuous Proof, and Proof of Equivalence. But we mainly discussed the first three methods.
+  * Direct Proof - given **p → q**, we **assume p is true** then **prove that q must also be true**
+  * Proof by Contraposition - given **p → q**, we **let p → q ≡ ¬q → ¬p** then apply **direct proof on ¬q → ¬p**
+  * Proof by Contradiction - given **p → q**, we assume **p is true** and **¬q is true**, then substitute ¬q in p which will lead to a contradiction
+- I was also able to answer some quesions during class including:
+
+  Number-Letter of Question |  Question | Answer
+:------------------------:|---------|:-----:
+(1.7) 33 | Show that these statements about the real number x are equivalent: (i) x is irrational, (ii) 3x + 2 is irrational, (iii) x/2 is irrational. | Use Proof by Contraposition on (i) → (ii), (ii) → (i), (i) → (iii), and then on (iii) → (i). These will result to: (i) → (ii) will show that x is rational, (ii) → (i) will show that 3x + 2 is rational, (i) → (iii) will show that x is rational, and lastly, (iii) → (i) will show that x/2 is rational.
+(1.8) 1 | Prove that n^2 + 1 ≥ 2^n when n is a positive integer with 1 ≤ n ≤ 4 | Using Proof by Cases: <br> @n=1: 1^2 + 1 = 2 ≥ 2 = 2^1 <br> @n=2: 2^2 + 1 = 5 ≥ 4 = 2^2 <br> @n=3: 3^2 + 1 = 10 ≥ 8 = 2^3 <br> @n=4: 4^2 + 1 = 17 ≥ 16 = 2^4 <br> @n=5: 5^2 + 1 = 26 ≤ 32 = 2^5 <br> Therefore, the statement is TRUE.
+(1.8) 5 | Prove using the notion of without loss of generality that min(x, y) = (x + y − |x − y|)/2 and max(x, y) =
+(x + y + |x − y|)/2 whenever x and y are real numbers. | Since |x - y| = |y - x|, x and y are interchangeable. Applying "without loss of generality", we assume x ≥ y: <br> [x + y - (x - y)]/2 = [x + y - x + y]/2 = 2y/2 = y = min(x,y) <br> [x + y + (x - y)]/2 = [x + y + x - y]/2 = 2x/2 = x = max(x,y).
+
+- We then proceeded to the discussion of sets. A **set** is an unordered collection of objects called elements.
+- The statement a is an element of the set A is denoted by **a ∈ A**.
+- Below is a list of different sets denoted  by specific letters:
+  * **N** = {0, 1, 2, 3, . . .}, the set of **natural numbers**
+  * **Z** = {. . . ,−2,−1, 0, 1, 2, . . .}, the set of **integers**
+  * **Z+** = {1, 2, 3, . . .}, the set of **positive integers**
+  * **Q** = {p/q | p ∈ Z, q ∈ Z, and q = 0}, the set of **rational numbers**
+  * **R**, the set of **real numbers**
+  * **R+**, the set of **positive real numbers**
+  * **C**, the set of **complex numbers**
