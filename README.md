@@ -259,8 +259,7 @@ Therefore, the argument is **VALID**.
 :------------------------:|---------|:-----:
 (1.7) 33 | Show that these statements about the real number x are equivalent: (i) x is irrational, (ii) 3x + 2 is irrational, (iii) x/2 is irrational. | Use Proof by Contraposition on (i) → (ii), (ii) → (i), (i) → (iii), and then on (iii) → (i). These will result to: (i) → (ii) will show that x is rational, (ii) → (i) will show that 3x + 2 is rational, (i) → (iii) will show that x is rational, and lastly, (iii) → (i) will show that x/2 is rational.
 (1.8) 1 | Prove that n^2 + 1 ≥ 2^n when n is a positive integer with 1 ≤ n ≤ 4 | Using Proof by Cases: <br> @n=1: 1^2 + 1 = 2 ≥ 2 = 2^1 <br> @n=2: 2^2 + 1 = 5 ≥ 4 = 2^2 <br> @n=3: 3^2 + 1 = 10 ≥ 8 = 2^3 <br> @n=4: 4^2 + 1 = 17 ≥ 16 = 2^4 <br> @n=5: 5^2 + 1 = 26 ≤ 32 = 2^5 <br> Therefore, the statement is TRUE.
-(1.8) 5 | Prove using the notion of without loss of generality that min(x, y) = (x + y − lx − yl)/2 and max(x, y) =
-(x + y + lx − yl)/2 whenever x and y are real numbers. | Since lx - yl = ly - xl, x and y are interchangeable. Applying "without loss of generality", we assume x ≥ y: <br> [x + y - (x - y)]/2 = [x + y - x + y]/2 = 2y/2 = y = min(x,y) <br> [x + y + (x - y)]/2 = [x + y + x - y]/2 = 2x/2 = x = max(x,y).
+(1.8) 5 | Prove using the notion of without loss of generality that min(x, y) = (x + y − lx − yl)/2 and max(x, y) = (x + y + lx − yl)/2 whenever x and y are real numbers. | Since lx - yl = ly - xl, x and y are interchangeable. Applying "without loss of generality", we assume x ≥ y: <br> [x + y - (x - y)]/2 = [x + y - x + y]/2 = 2y/2 = y = min(x,y) <br> [x + y + (x - y)]/2 = [x + y + x - y]/2 = 2x/2 = x = max(x,y).
 
 - We then proceeded to the discussion of sets. A **set** is an unordered collection of objects called elements.
 - The statement a is an element of the set A is denoted by **a ∈ A**.
@@ -282,4 +281,69 @@ Therefore, the argument is **VALID**.
   Number-Letter of Question |  Question | Answer
 :------------------------:|---------|:-----:
 (2.1) 1-b | List the members of the set {x l x is a positive integer less than 12} | {1,2,3,4,5,6,7,8,9,10,11}
-(2.1) 4-a | For the pair: the set of people who speak English, the set of people who speak English with an Australian accent, determine whether the first is a subset of the second, the second is a subset of the first, or neither is a subset of the other. | 
+(2.1) 4-a | For the pair: the set of people who speak English, the set of people who speak English with an Australian accent, determine whether the first is a subset of the second, the second is a subset of the first, or neither is a subset of the other. | the second is a subset of A.
+(2.1) 5-b | Determine whether this {{1}}, {1, {1}} pair of sets is equal. | No. The first set has only 1 element, while the other set has 2 elements.
+(2.1) 8-b,c | b) For the set {x ∈ R | x is the square of an integer} in Exercise 7, determine whether {2} is an element of that set. <br> c) For the set {2,{2}} in Exercise 7, determine whether {2} is an element of that set. | b) No. <br> c) Yes.
+(2.1) 9-c,d | c) Determine whether {0} ⊂ ∅ is true or false. <br> d) Determine whether ∅ ⊂ {0} is true or false. | c) False <br> d) True.
+(2.1) 10-c | Determine whether the statement {∅} ∈ {∅} is true or false. | True.
+(2.1) 11-c | Determine whether the statement {x} ∈ {x} is true or false. | False.
+(2.1) 19-d | What is the cardinality of {a, {a}, {a, {a}}} | 3
+(2.1) 23-c | How many elements does the set P(P(∅)) have where a and b are distinct elements? | 2^1 = 2 elements
+
+<br/>
+# WEEK 5
+- During the fifth week, we discussed about another method of proving which is the Mathematical Induction. **Mathematical Induction** consists of 2 steps: Bases and Inductive.
+  * **Basis** - In this step, the output of the given formula or equation is checked.
+  * **Inductive** - In this step, direct proving is applied: Assume P(k) is true, and then substitute P(k) in P(k+1).
+- Induction - from specific to general (theory)
+- Deduction - from general (theory) to specific
+- I was also able to answer some quesions during class including:
+
+  Number-Letter of Question |  Question | Answer
+:------------------------:|---------|:-----:
+(5.1) 1 | There are infinitely many stations on a train route. Suppose that the train stops at the first station and suppose that if the train stops at a station, then it stops at the next station. Show that the train stops at all stations. | Let P(n) = the train stops at station n. <br> Basis: P(1) is true. <br> Inductive: P(k) → P(k+1) for each k≥1.
+(5.1) 5 | Prove that 1^2 + 3^2 + 5^2 + ··· +(2n + 1)^2 = (n + 1)(2n + 1)(2n + 3)/3 whenever n is a nonnegative integer. | Let P(n) = 1^2 + 3^2 + 5^2 + ... + (2n + 1)^2 = (n + 1)(2n + 1)(2n + 3)/3 <br> Basis: P(0) => 1^2 = 1 = (0 + 1)[2(0) + 1][2(0) + 3]/3 <br> Inductive: Assume P(k) is true, then: 1^2 + 3^2 + ··· + (2k + 1)^2 + [2(k+1)+ 1]^2 = (k + 1)(2k + 1)(2k + 3)/3 + (2k + 3)^2 = (2k + 3)[(k + 1)(2k + 1)/3 + (2k + 3)] = (2k + 3)(2k^2 + 9k + 10)/3 = (2k + 3)(2k + 5)(k + 2)/3 = [(k + 1) + 1][2(k + 1) + 1][2(k + 1) + 3]/3
+
+-We also had our first quiz this week which was about all the topics that has been discussed up until last meeting, but mainly about proving.
+
+<br/>
+# WEEK 6
+- We didn't have a meeting on the 19th because it was called off for our preparation of our thesis.
+- On thursday, we proceeded to the next topic which was about Functions. A **function** mainly consist of two parts: a **domain** and a **codomain**.
+  * Domain  - the set of all possible inputs of a function which allow the function to work
+  * Codomain - the set of all possible outputs of a function
+  * Range - a subset of Codomain
+- There are also three types of functions discussed:
+  * One-to-One (**Injunction**) - given any **b** in set B, there is only one **a** in set A that can be paired with the given **b**
+  * Onto (**Surjection**) - if every element **b** in set B has a corresponding element **a** in set A such that f(a) = b
+  * One-to-One and Onto (**Bijection**) - each element of set A is paired with exactly one element of set B, and each element of the set B is paired with exactly one element of set A (no unpaired elements)
+- I was also able to answer some quesions during class including:
+
+  Number-Letter of Question |  Question | Answer
+:------------------------:|---------|:-----:
+(2.3) 3-b | Determine whether f is a function from the set of all bit strings to the set of integers if f (S) is the number of 1 bits in S. | It is a function.
+(2.3) 4-d | Find the domain and range of the function that assigns to a bit string the number of bits in the string. Note that in each case, to find the domain, determine the set of elements assigned values by the function. | Domain: a bit string <br> Range: all positive integers
+
+<br/>
+#### Assignment:
+- (2.3) 15. Determine whether the function f : Z × Z → Z is onto if <br> a) f (m, n) = m + n <br> b) f (m, n) = m^2 + n^2 <br> c) f (m, n) = m <br> d) f (m, n) = |n| <br> e) f (m, n) = m − n.
+  * a) Given any integer n, f(0,n) = n. Therefore, ONTO.
+  * b) Range has no negative **Z**. Therefore, Not ONTO.
+  * c) Given any integer m, f(m,1) = m. Therefore, ONTO.
+  * d) Range has no negative **Z**. Therefore, Not ONTO.
+  * e) Given any integer m, f(m,0) = m. Therefore, ONTO.
+
+<br/>
+# WEEK 7
+- During this week, we continued answering exercises under the topic Functions.
+- I was also able to answer some quesions during class including:
+
+  Number-Letter of Question |  Question | Answer
+:------------------------:|---------|:-----:
+(2.3) 20-a | Give an example of a function from N to N that is one-to-one but not onto. | n + 1
+(2.3) 20-b | Give an example of a function from N to N that is onto but not one-to-one. | \lfloor n + 0.5 \rfloor
+(2.3) 22-b | Determine whether the function f (x) = −3x^2 + 7 is a bijection from R to R. | Not a Bijection.
+
+<br/>
+# WEEK 8
+...
